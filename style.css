@@ -1,0 +1,56 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+#chat {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 400px;
+}
+
+#chat pre {
+    margin: 0;
+}
+
+form {
+    margin-top: 10px;
+}
+
+form input[type="text"] {
+    width: 70%;
+    padding: 8px;
+}
+
+form button {
+    width: 28%;
+    padding: 8px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #555;
+}
+
+@media only screen and (max-width: 600px) {
+    form input[type="text"] {
+        width: 60%;
+    }
+
+    form button {
+        width: 38%;
+    }
+}
